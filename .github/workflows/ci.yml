@@ -24,3 +24,6 @@ jobs:
 
       - name: Run tests
         run: pytest -v
+
+      - name: Run addition demo
+        run: python adder.py 12 30
